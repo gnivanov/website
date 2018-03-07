@@ -1,0 +1,73 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="shortcut icon" href="icon.png" type="image/x-icon">
+<link href="style.css" rel="stylesheet">
+<title>Рокетбанк - Контакты</title>
+</head>
+
+<body style="font-family: courier new, sans-serif">
+
+<table  width="100%" border="0" align="center" >
+    <tr>
+        <td class="blog_title" colspan="2">
+		   <span id="main_title">Рокетбанк</span> <br>
+		   <marquee id="two_title" scrollamount="15" behavior="alternate">Простой мобильный банк</marquee>
+	    </td>
+    </tr>
+    <tr>
+        <td class="blog1" width="23%" border="0" style="vertical-align: top">
+		 <div id="obsh"> <div id="navig"><span><strong>Навигация</strong></span> </div>
+		   <div class="razdel"><a href="site.html">Главная</a></div>
+		   <div class="razdel">Тарифы</div>
+		     <div class="podrazdel">
+			   <a href="https://rocketbank.ru/open-tariffs/cozy-space">Уютный Космос</a> <br>
+			   <a href="https://rocketbank.ru/open-tariffs/all-inclusive-places">Всё включено</a>
+		     </div>	
+		   
+		   <div class="razdel">Проекты</div>
+		     <div class="podrazdel">
+			    <a href="vklad.html">Вклады</a> <br>
+				<a href="strah.html">Страхование</a> <br>
+		     </div>	
+
+		   <div class="razdel">О Рокете</div>
+		     <div class="podrazdel">
+			    <a href="kontakt.html"><b>Контакты</b></a> <br>
+				<a href="otzyv.html">Отзывы</a> <br>
+				<a href="bezopasnost.html">Безопасность</a> <br>
+				<a href="usl.html">Условия</a> <br>
+		     </div>				 
+		 </div>
+		</td>
+        <td class="blog2" width="77%" border="0">
+		<div style="width:30%">
+		<h3 align="center">Обратная связь</h3>
+		<form method="post" action="kontakty.php">
+        <b>Как вас зовут?</b> <br>
+		Имя:
+        <input type="text" name="name" size="26" value=""> <br>
+		Фамилия:
+        <input type="text" name="fami" size="26" value=""> <br>
+		Отчество:
+        <input type="text" name="otch" size="26" value=""> <br>
+        <b>Ваш e-mail:</b>
+        <input type="text" name="email" size="26" value=""> <br>
+		<b>Выберите тип Вашего обращения:</b>
+		<select>
+		  <option value="vopr">Вопрос</option>
+          <option value="otz">Отзыв</option>
+          <option value="other">Другое</option>
+        </select> <br>
+        <b>Введите текст:</b>
+        <textarea id="vopros" name="vopros" cols="40" rows="3"></textarea> <br>
+		<div id="mashtextbut" style="width:10%">Верно?</div>
+		<div id="mashtext"></div>
+        <div align="center"><input type="submit" value="Отправить"></div>
+        </form>
+		</div>
+    </td>
+</table>
+<script src="kontakt_script.js"></script>
+</body>
+</html> 
